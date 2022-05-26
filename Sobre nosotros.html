@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Normalize V8.0.1 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- MDBootstrap V5 -->
+    <link rel="stylesheet" href="./css/mdb.min.css">
+
+    <!-- Font Awesome V5.15.1 -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- Sweet Alert V10.13.0 -->
+    <script src="./js/sweetalert2.js"></script>
+
+    <!-- General Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header full-box bg-white">
+        <div class="header-brand full-box">
+            <a href="index.html">
+                <img src="./assets/img/7f19d8d5-8e6b-4c15-bb93-2c4996cb93e4.jpg" alt="Designlopers" class="img-fluid">
+            </a>
+        </div>
+
+        <div class="header-options full-box">
+            <nav class="header-navbar full-box poppins-regular font-weight-bold scroll" onclick="show_menu_mobile()">
+                <ul class="list-unstyled full-box">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menú</a>
+                    </li>
+                    <li>
+                        <a href="Sobre nosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="bag.html" class="header-button full-box text-center" title="Carrito">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="badge bg-primary rounded-pill bag-count">2</span>
+            </a>
+
+            <div class="header-button full-box text-center" id="userMenu" data-mdb-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" title="Nombre de usuario">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="dropdown-menu div-bordered popup-login" aria-labelledby="userMenu">
+                <p class="text-center" style="padding-top: 10px;">
+                    <i class="fas fa-user-circle fa-3x"></i><br>
+                    <small>Nombre de usuario</small>
+                </p>
+                <a class="dropdown-item" href="javascript:void(0);">
+                    <i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard
+                </a>
+                <a class="dropdown-item" href="javascript:void(0);">
+                    <i class="fas fa-sign-out-alt"></i> &nbsp; Cerrar sesión
+                </a>
+            </div>
+
+            <a href="javascript:void(0);" class="header-button full-box text-center d-lg-none" title="Menú"
+                onclick="show_menu_mobile()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="Sobre_nosotros">
+        <div class="container">
+            <div class="mision">
+                <h2>Mision</h2>
+                <p>Tropical Desserts tiene como misión Promover el consumo de productos sanos, mediante la venta de
+                    postres veganos, y recomendaciones de una dieta saludable, que priorizan los más altos estándares de
+                    calidady de una vida equilibrada.</p>
+            </div>
+
+            <div class="vicion">
+                <h2>Visión</h2>
+                <p>Ser un establecimiento reconocido a nivel nacional por su constante innovacióny sus productos de
+                    calidad. </p>
+            </div>
+            <div class="Valores">
+                <h2>Valores</h2>
+                <ul>
+                    <p><b> Responsabilidad:</b> lograr la puntualidad a la hora de ofrecer nuestros servicios.</li> <br>
+                    <p><b>Honestidad:</b> ser caracterizados por mantener una conducta recta y confiable</li><br>
+                    <p><b>Calidad:</b> tener presente siempre las expectativas de los clientes, para ofrecerles lo mejor
+                        de lo mejor.</li><br>
+                    <p><b>Ética:</b> comprometidos con la acción transparente y en beneficio de nuestra comunidad,
+                        basándonos en principios y valores que se nos son propios.</li>
+                    <p><b>Amor:</b> hacer cada pedido con pasión y entrega.</li><br>
+                    <p><b>Dedicación:</b> ser firmes en alcanzar nuestros objetivos realizando cada actividad con esmero
+                        y esfuerzo.</li><br>
+
+
+                </ul>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+    <section class="Nuestro_Equipo">
+
+        <div class="container">
+            <h2> Nuestro Equipo</h2>
+            <p>Nuestro equipo esta formado Por un grupo de Increibles mujeres que buscan desarrollar este proyecto para
+                Entregarles la mayor calidad y el mejor servicio en postres veganos siempre acompañando de nuestro Lema
+            </p>
+            <p> <span>Amar, servir y concientizar para hacer del mundo un lugar más sano. </span> </p>
+
+
+        </div>
+
+
+    </section>
+
+
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image12.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Kimberly Marte</h3>
+            <h4>Gerente General</h4>
+            <p>Dirigir todos los aspectos del negocio, ofreciendo un menú de alta calidad y motivar al personal
+                para ofrecer una excelente atención al cliente. </p>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image14.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Mayelyn Sosa</h3>
+            <h4>Mercadeo y logística </h4>
+            <p> Gestionar la publicidad y promoción del negocio. Además de ayudar a mantener la planificación y control
+                sobre los servicios ofrecidos.</p>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image15.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Raquel Rodríguez </h3>
+            <h4> Administración y Finanzas</h4>
+            <p> Llevar la contabilidad del negocio, y anotar y cobrar los pedidos de los clientes de manera
+                satisfactoria</p>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image16.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3> Erilís Penson </h3>
+            <h4> Chef</h4>
+            <p>Cocinar y hacer la presentación de los postres que serán consumidos en el local, manteniendo el orden en
+                los pedidos para su posterior entrega al mesero. </p>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image17.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Naisha Sánchez</h3>
+            <h4>Chef</h4>
+            <p>Cocinar y hacer la presentación de los postres que serán consumidos en el local, manteniendo el orden
+                en los pedidos para su posterior entrega al mesero.</p>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image18.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Esmery Vargas</h3>
+            <h4>Mesera</h4>
+            <p>Ofrecer un servicio al cliente de calidad, procesar los pedidos y servirlos a la mesa.</p>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image19.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Anyely Lebrón</h3>
+            <h4>Envíos y delivery </h4>
+            <p>Gestionar y hacer entrega de los productos que son elaborados en el negocio, procurando que estos se
+                conserven en buenestado y no haya tardanza en la entrega. </p>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img"> <img src="./assets/img/image20.png" alt=""></div>
+        </div>
+
+
+        <div class="description">
+            <h3>Jazmín Mordan </h3>
+            <h4> Envíos y delivery </h4>
+            <p>Gestionar y hacer entrega de los productos que son elaborados en el negocio, procurando que estos se
+                conserven en buen estado y no haya tardanza en la entrega. </p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" ><i class="far fa-copyright"></i> Andejy 2022</h5></li>
+	                    <li> Todos los derechos reservados </li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >Republica dominicana</h5></li>
+	                    <li><i class="fas fa-map-marker-alt fa-fw"></i>Santiago de los Caballeros </li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >Siguenos en:</h5> </li>
+	                    <li>
+	                        <a href="https://www.facebook.com/mayelinsosa.sosa" class="footer-link" target="_blank" >
+	                            <i class="fab fa-facebook fa-fw"></i> Facebook
+	                        </a>
+	                    </li>
+
+	                    <li>
+	                        <a href="https://www.instagram.com/politecnicolasmercedes/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-instagram fa-fw"></i>
+	                                instagram
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+
+
+
+    <script src="./js/mdb.min.js"></script>
+
+    <!-- General scripts -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
