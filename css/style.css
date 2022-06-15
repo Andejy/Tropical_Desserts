@@ -455,6 +455,12 @@ text-align: left;
 	color: #EC5252;
 }
 
+.Equipo{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	
+}
+
 .card {
     position: relative;
     width: 300px;
@@ -550,7 +556,9 @@ text-align: left;
    
 }
 
-@media (max-width: 576px){
+
+
+@media (max-width: 986px){
 	.container-cards{
 		flex-direction: column;
 		align-items: center;
@@ -597,13 +605,27 @@ text-align: left;
 		border-radius: 0 10px 10px 0;
 		right: 0;
 	}
-
-
-
-
 	
-	
+
 }
+
+@media (max-width: 400px){
+	.Nuestro_Equipo{
+		margin-top:-300px ;
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 380px){
+	.Nuestro_Equipo{
+		margin-top:50px ;
+		width: 100%;
+		padding: 0;
+	}
+}
+
 
 @media (max-width: 991px){
 	.tittle-details{
@@ -693,7 +715,7 @@ text-align: left;
 		
 		padding: 10px;
 	}
-	 
+	
 	.Nuestro_Equipo p{
 		text-align: center;
 	}
